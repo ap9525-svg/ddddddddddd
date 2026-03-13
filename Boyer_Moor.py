@@ -31,7 +31,7 @@ def search(txt, pat):
         print("Pattern not found")
 
 txt = "ABAAABCD"
-pat = "ABCw"
+pat = "AB"
 
 start = time.time()
 search(txt, pat)

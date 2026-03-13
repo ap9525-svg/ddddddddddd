@@ -16,6 +16,7 @@ n=int(input("enter number of element:"))
 for i in range(n):
     x=int(input("enter the element"))
     a.append(x)
+    
 start=time.time()
 result1=wrec(a,n)
 end=time.time()
